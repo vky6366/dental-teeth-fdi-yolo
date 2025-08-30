@@ -39,6 +39,16 @@ This project demonstrates how to train a YOLOv8 object detection model to detect
 
 ---
 
+## Installation
+
+To install the required Python dependencies, run:
+
+```bash
+pip install -r requirements.txt
+```
+
+This command will install all necessary packages listed in the `requirements.txt` file for the project.
+
 ## ⚙️ Training Setup
 
 - **Framework:** [Ultralytics YOLOv8](https://docs.ultralytics.com/)
