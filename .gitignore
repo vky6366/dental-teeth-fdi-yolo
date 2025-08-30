@@ -1,6 +1,25 @@
-Dataset.zip
-runs_folder.zip
-yolov8s.pt
-/Dataset
-/runs_folder
-/ToothNumber_TaskDataset
+# Dataset
+Dataset/
+datasets/
+*.zip
+
+# YOLO training runs
+runs/
+
+# Large files
+*.pt
+!best.pt     # exception → keep best.pt if <100MB
+
+# Cache files
+*.cache
+*.npy
+
+# Colab/Notebook outputs
+*.ipynb_checkpoints
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
+tree.txt
